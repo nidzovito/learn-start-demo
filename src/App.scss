@@ -47,7 +47,7 @@ p, span, a {
     font-size: 40px;
   }
   
-  h3, .h2 {
+  h2, .h2 {
     font-size: 35px;
   }
   
@@ -120,5 +120,12 @@ p, span, a {
 
 h1, h2, h3, .h1, .h2, .h3, p {
   font-weight: $weight-regular;
+}
+
+.h1, .h2, .h3 {
   margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0 0 1rem 0;
 }
