@@ -1,16 +1,17 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
-import { Autoplay } from 'swiper/js/swiper.esm.js';
 import { Link } from 'react-router-dom';
 
 import './stories_carousel.scss';
 
 export const StoriesCarousel = ({ title, stories }) => {
   const swiperParams = {
-    modules: [Autoplay],
     spaceBetween: 16,
     slidesPerView: 'auto',
-    speed: 1000,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
   };
 
   return (
