@@ -109,7 +109,7 @@
       flex-direction: column;
       justify-content: center;
       text-align: left;
-      padding-left: 5rem;
+      padding-left: 6rem;
       padding-right: 0;
       padding-top: 0;
       padding-bottom: 0;
@@ -124,7 +124,7 @@
     &--flipped &-text {
       order: 1;
       padding-left: 0;
-      padding-right: 5rem;
+      padding-right: 6rem;
     }
   }
 }

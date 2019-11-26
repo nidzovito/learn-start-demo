@@ -129,3 +129,23 @@ h1, h2, h3, .h1, .h2, .h3, p {
 h1, h2, h3, p {
   margin: 0 0 1rem 0;
 }
+
+// button
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  background-color: $color-green;
+  color: $color-white;
+  text-decoration: none;
+  min-width: 10rem;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-green;
+    border-color: $color-green;
+  }
+}

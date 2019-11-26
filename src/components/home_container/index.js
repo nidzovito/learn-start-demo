@@ -12,15 +12,15 @@ const contentSections = [
     image: 'https://cdn.worldvectorlogo.com/logos/react-1.svg',
   },
   {
-    title: 'Only the hottest startups.',
+    title: 'Simplest way to read.',
     subtitle:
-      'We hand-select only the hottest startups and our expert copywriters interview and produce every story.',
+      'Learn from your phone or from your computer, and continue from where you left off anytime.',
     image: 'https://cdn.worldvectorlogo.com/logos/react-1.svg',
   },
   {
-    title: 'Only the hottest startups.',
+    title: 'Free. Forever.',
     subtitle:
-      'We hand-select only the hottest startups and our expert copywriters interview and produce every story.',
+      "We're a non-profit project supported by Sillicon Valley's top VCs and startup incubators. You won't have to pay a cent.",
     image: 'https://cdn.worldvectorlogo.com/logos/react-1.svg',
   },
 ];
@@ -30,7 +30,9 @@ export const HomeContainer = () => (
     <section className='container-fluid page-home-hero'>
       <h1>Stay hungry. Stay foolish.</h1>
       <p>Learn from the hottest startups in the world.</p>
-      <Link to="/stories" className="btn">Read Now</Link>
+      <Link to='/stories' className='btn'>
+        Read Now
+      </Link>
     </section>
 
     <section className='page-home-bar'>
@@ -51,7 +53,9 @@ export const HomeContainer = () => (
     <section className='page-home-bar'>
       <div className='container'>
         <h2>Let's get started.</h2>
-        <Link to="/stories" className="btn">Read Now</Link>
+        <Link to='/stories' className='btn'>
+          Read Now
+        </Link>
       </div>
     </section>
   </div>
