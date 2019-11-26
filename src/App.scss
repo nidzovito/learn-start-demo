@@ -1,0 +1,60 @@
+@import "~sass-mq/mq";
+
+$mq-breakpoints: (
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  xlarge: 1200px,
+);
+
+// Color Palette
+$color-black: #1c1c1c;
+$color-dark-gray: #8f8e8b;
+$color-gray: #e4e5e6;
+$color-light-gray: #f4f4f4;
+$color-green: #159f9e;
+
+// typography
+$weight-light: 300;
+$weight-regular: 400;
+$weight-semibold: 600;
+$weight-bold: 700;
+$weight-black: 900;
+
+html, body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p, span, a {
+  font-size: 13px;
+}
+
+@include mq($from: medium) {
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  p, span, a {
+    font-size: 15px;
+  } 
+}
