@@ -1,0 +1,16 @@
+@import "~swiper/swiper.scss";
+
+@import "../../App.scss";
+
+.page-stories-hero {
+  background-color: $color-black;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+
+  @include mq($from: medium) {
+    height: 20rem;
+  }
+}

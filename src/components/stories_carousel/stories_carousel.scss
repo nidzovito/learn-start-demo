@@ -1,0 +1,57 @@
+@import "../../App.scss";
+
+.stories-carousel {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .swiper-slide {
+    width: 15rem;
+    display: block;
+    text-decoration: none;
+    box-shadow: 0 0 1px 1px rgba($color-black, 0.2);
+    margin: 2px;
+
+    @include mq($from: large) {
+      width: 22.5rem;
+    }
+  }
+
+  .card-image {
+    height: 0;
+    padding-bottom: 62.5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $color-dark-gray;
+  }
+
+  .card-footer {
+    padding: 1rem;
+
+    h3 {
+      color: $color-black;
+    }
+  }
+
+  .card-author {
+    display: flex;
+    align-items: center;
+
+    div {
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      background: $color-gray;
+
+      @include mq($from: large) {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+
+    span {
+      padding-left: 1rem;
+      color: $color-dark-gray;
+    }
+  }
+}

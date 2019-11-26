@@ -2,10 +2,11 @@
 
 header {
   background-color: $color-white;
-  box-shadow: 0 0 2px 1px rgba(0,0,0,0.4);
+  box-shadow: 0 0 2px 1px rgba($color-black, 0.2);
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 1000;
   padding-top: 1rem;
   padding-bottom: 1rem;
 
