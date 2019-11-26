@@ -1,0 +1,33 @@
+@import "../../App.scss";
+
+header {
+  background-color: $color-white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @include mq($from: medium) {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  & > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .link-home {
+    color: $color-black;
+  }
+
+  .link-signup {
+    color: $color-green;
+  }
+}
